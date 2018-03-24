@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff3d00</color>
+    <color name="colorPrimaryDark">#ff3d00</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRedDarken">#e53935 </color>
+    <color name="colorGreenDarken">#1b5e20</color>
+    <color name="colorViewSeparator">#c5cae9</color>
+    <color name="colorDeepOrangeOne">#ff5722</color>
+    <color name="colorDeepOrange">#ff3d00</color>
+    <color name="colorIndigo">#c5cae9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorRelativeLayout">#8c9eff</color>
+</resources>

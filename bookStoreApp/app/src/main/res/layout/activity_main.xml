@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abewkayew.bookstoreapp.MainActivity">
+
+    <TextView
+        android:id="@+id/display_books"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:text="Display Books"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorGreenDarken"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_navigate_right"
+        android:layout_toRightOf="@+id/display_books"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="48dp"
+        />
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:foregroundGravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorIndigo"
+        android:layout_below="@id/display_books"
+        />
+    <TextView
+        android:id="@+id/manage_books"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/separator"
+        android:clickable="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:text="Manage Books"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorGreenDarken"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_navigate_right"
+        android:layout_toRightOf="@+id/manage_books"
+        android:layout_marginLeft="14dp"
+        android:layout_below="@+id/separator"
+        android:layout_marginTop="15dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:foregroundGravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorIndigo"
+        android:layout_below="@id/manage_books"
+        />
+
+</RelativeLayout>
