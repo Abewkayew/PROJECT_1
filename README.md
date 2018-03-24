@@ -1,1 +1,1 @@
-# PROJECT_1
+This project is made with Client Server Architecture. This application enables users to be able get the data they need from the server. The server houses and provides high-end, computing-intensive datas to the client on demand.Client/server architecture works when the client computer sends a request or process request to the server over the network connection, which is then processed and delivered to the client. 
